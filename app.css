@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Coloring */
+.text-primary{
+    color: #f7c08a;
+}
+.gold{
+    color: goldenrod;
+}
+
+#home-info a{
+    color: goldenrod;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.reviews{
+    padding-top: 20px;
+}
+
+
+.logo img{
+    height: 16vh;
+}
+
+.logo img a{
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar{
+    height: 16vh;
+    display: flex;
+    background: purple;
+    color: #fff;
+    overflow: auto;
+
+}
+.navbar a {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    float: right;
+    list-style: none;
+}
+
+.navbar ul a{
+    display: flex;
+    flex-grow: 1 ;
+    justify-content: space-between;
+    float: right;
+}
+
+.navbar ul a {
+    display: block;
+    /* margin: 10px; */
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* this current class allows for selected page to be highlighted in nav bar */
+.navbar a:hover,
+.navbar a.current {
+    color: rgb(252, 215, 25);
+    /* border-bottom: #333 2px solid; */
+}
+
+#showcase {
+    background: url(/IMG/sample.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 170px;
+    height: 600px;
+    background-color: rgba(75, 75, 85, 0.349);
+    /* animation */
+    animation: moveInLeft 1.2s ease-in-out;
+ 
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding: 20px;
+    line-height: 1.7em;
+}
+
+#showcase-btn{
+    border-radius: 15px;
+}
+
+p .lead{
+    margin-bottom: 20px;
+}
+
+a .btn{
+    /* margin-top: 20px; */
+}
+
+/* home info  */
+
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url(IMG/Siam_Orchid_Art_Murals_.jpg) no-repeat center center/cover;
+    min-height: 100%;
+}
+
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#about-info .info-right, #about-info .info-left { 
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.info-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+}
+.info-content p{
+    margin: 20px;
+}
+
+
+/* location */
+
+
+/* padding */
+
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+/* Box Features */
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: #f7c08a;
+    float: left; 
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features .box{
+    height: 250px;
+}
+
+.box i {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+}
+
+.box-button-content{
+    padding: 60px;
+}
+
+
+/* footer */
+
+
+#main-footer{
+    height: 15vh;
+    flex-flow: column;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: black;
+}
+
+#main-footer p{
+
+    padding-top: 20px;
+   
+}
+
+#main-footer li{
+    list-style: none;
+}
+
+#main-footer a:hover{
+    list-style: none;
+    color: white;
+}
+
+
+
+.larger-font {
+    font-size: 1.5rem;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    /* overflow auto means that it always shows the background */
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color:#fff;
+    background: #333;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.btn:hover {
+    background:black;
+    color: #333;
+}
+
+#showcase .btn{
+    background-color: white;
+    color: goldenrod;
+    width: 100px;
+    height: 30px;
+}
+
+.info-content .btn{
+    border-radius: 20px;
+}
+
+#showcase .btn:hover {
+    background-color: black;
+
+}
+.btn-light {
+   background: #f4f4f4;
+   color: #333;
+}
+
+.bg-dark {
+    background: purple;
+    color: #fff;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr{
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+

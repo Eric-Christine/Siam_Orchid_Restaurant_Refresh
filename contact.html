@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/1c30e23579.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- fonts -->
+    <!-- architects daughter -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+
+
+
+    <script defer src="contact.js">
+    </script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href=" mobile.css">
+
+    <title>Siam Orchid Home Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="IMG/siamOrchidLogoJPG.jpg" alt="Logo">
+            </div>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="location.html">
+                    <li>Location</li>
+                </a>
+                <a href="menus.html">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html">
+                    <li>Reviews</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <div class="contact">
+            <h2>Please call for carryout or to make a reservation</h2>
+            <ul>
+                <li>Phone:
+                    <span class="phoneNumber">
+                        <a href=”tel:+1-859-694-7700″>(859) 694-7700</a>
+                    </span>
+                </li>
+                <li>Address: <span>511 Fairfield Avenue Bellevue, KY 41073 </span></li>
+            </ul>
+        </div>
+        <h4>Feedback is welcomed :)</h4> -->
+        <!-- <form id="review" action="">
+            <input type="text" placeholder="first name" name="" id="firstName">
+
+            <input type="text" placeholder="last name" name="" id="lastName">
+
+            <br>
+
+            <textarea name="review" id="" cols="30" rows="10">
+        </textarea>
+            <h3>Your Star Rating</h3>
+            <div class="userStarRating">
+                <span id=star1 class="fa fa-star"></span>
+                <span id=star2 class="fa fa-star"></span>
+                <span id=star3 class="fa fa-star"></span>
+                <span id=star4 class="fa fa-star "></span>
+                <span id=star5 class="fa fa-star"></span>
+            </div>
+            <input id="submitButton" type="submit" value="Send Feedback" name="" id="">
+        </form> -->
+
+        <div class="form-container">
+            <form class="form" id="form">
+                <h2>Leave a review!</h2>
+                <div class="form-control">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" placeholder="Please enter your first name">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" placeholder="Please enter your last name">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Your rating</label>
+                    <div class="userStarRating">
+                        <span id=star1 class="fa fa-star"></span>
+                        <span id=star2 class="fa fa-star"></span>
+                        <span id=star3 class="fa fa-star"></span>
+                        <span id=star4 class="fa fa-star "></span>
+                        <span id=star5 class="fa fa-star"></span>
+                    </div>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Your Review </label>
+                    <textarea id="content" rows="5" cols="30"></textarea>
+                    <small>Error message</small>
+                </div>
+                <button id="submitButton"">Post</button>
+            </form>
+        </div>
+                    <section class=" reviews">
+
+                    <div class=" overallStarRating">
+                        <h3>Reviews</h3>
+                        <!-- <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star">
+                        </span> -->
+                    </div>
+                    <div>
+                        <ul class=reviewList></ul>
+                    </div>
+                    </section>
+    </main>
+
+
+    <footer id="main-footer">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="location.html">location</a></li>
+            <li><a href="menus.html">menu</a></li>
+            <li><a href="contact.html">contact</a></li>
+
+        </ul>
+        <p>Siam Orchid &copy; 2020, All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

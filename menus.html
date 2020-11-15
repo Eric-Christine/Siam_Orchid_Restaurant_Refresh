@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="home.js"></script>
+    <!-- fonts -->
+    <!-- architects daughter -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="menus.css">
+
+    <title>Menus</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="IMG/siamOrchidLogoJPG.jpg" alt="Logo">
+            </div>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="location.html">
+                    <li>Location</li>
+                </a>
+                <a href="menus.html">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html">
+                    <li>Reviews</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <section id="lunch-items">
+            <ul>
+                <li><a href="#lunch-menu">Lunch Menu</a></li>
+                <li><a href="#dinner-menu">Dinner Menu</a></li>
+            </ul>
+        </section> -->
+        <!-- MENUS -->
+        <div id=menus>
+            <section id="lunch-menu">
+                <h1 class="center py-3"> Menu</h1>
+
+                <div aria-live="polite" class="slick-list draggable">
+                    <div class="menu-images">
+                        <img src="IMG/dinner1.jpg" alt="">
+                        <img src="IMG/dinner2.jpg" alt="">
+                        <img src="IMG/dinner3.jpg" alt="">
+                        <img src="IMG/dinner4.jpg" alt="">
+
+                    </div>
+                </div>
+        </div>
+
+
+
+        </section>
+
+        <!-- <section id="dinner-menu">
+            <h1 class="center py-3">Dinner Menu</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error officia, iure aspernatur libero
+                repellat? Modi quo similique maxime neque, molestias quibusdam adipisci officiis? Quia, nesciunt
+                possimus! Sit, fugiat dolorem.</p>
+        </section> -->
+        </div>
+
+    </main>
+
+
+    <footer id="main-footer">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="location.html">location</a></li>
+            <li><a href="menus.html">menu</a></li>
+            <li><a href="contact.html">reviews</a></li>
+        </ul>
+
+        <p>Siam Orchid &copy; 2020, All Rights Reserved</p>
+    </footer>
+    <!-- SMOOTH SCROLLING JAVASCRIPT
+
+    <!-- jQuery CDN smooth scrolling -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script>
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+    </script> -->
+</body>
+
+</html>
+
+
+
+<!-- ADD JQUERY SMOOTH SCROLLING FOR MENU ITEMS -->
