@@ -189,8 +189,6 @@ submitButton.addEventListener('click', function (e) {
 
     reviewList.appendChild(userStarRatingClone)
 
-
-
     fetch('http://localhost:3000/reviews', {
         method: 'POST',
         headers: {
