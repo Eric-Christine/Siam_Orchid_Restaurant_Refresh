@@ -9,5 +9,32 @@
 main{
     background: white;
     text-align: center;
+    
 }
 
+main ul {
+    /* text-align: left; */
+    /* background: yellow;
+    display: flex;
+    flex-flow: column wrap; */
+    margin: 1rem 10rem;
+    justify-content: center;
+    list-style: none;
+    width: 800px;
+    background: chocolate;
+    text-align: left;    
+}
+
+li {
+    
+    margin: 1rem;
+    
+}
+
+.appetizers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+   
+}
