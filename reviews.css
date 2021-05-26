@@ -24,12 +24,18 @@ h4 {
 button {
     cursor: pointer;
     background-color: #3498db;
-    border: 2px solid purple;
+    border: none;
     border-radius: 4px;
-    color: #340db3;
-
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    width: 20%;
+    font-size: 20px;
 }
 
+button:hover{
+    background-color: blueviolet;
+}
 /* nav */
 
 .logo img{
@@ -144,7 +150,7 @@ button {
 }
 
 /* Form */
-
+/* 
 #form{
     align-self: center;
 }
@@ -230,11 +236,13 @@ h2{
 
 .form button:hover{
     background-color: #0f92e9;
-}
+} */
 /* reviews */
 
 
-
+.reviews{
+    text-align: center;
+}
 .reviews h3{
     margin-bottom: 2em;
 }
@@ -247,6 +255,9 @@ iframe{
     margin: 1rem;
 }
 
+.fb-post{
+    margin: 1rem;
+}
 
 
 iframe:hover{
@@ -265,3 +276,4 @@ iframe:hover{
     flex-flow: column;
     padding-top: 10px;
     align-items: center;}
+
