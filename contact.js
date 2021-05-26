@@ -6,9 +6,18 @@ console.log('connected')
 let yelpButton = document.querySelector('#yelp-button')
 console.log(yelpButton)
 
-yelpButton.addEventListener('click', function (e) {
-    window.location = "http://www.google.com/"
+let fbButton = document.querySelector('#facebook-button')
+
+yelpButton.addEventListener('click', function () {
+    window.location = "https://www.yelp.com/biz/siam-orchid-thai-restaurant-bellevue"
     })
+
+fbButton.addEventListener('click', function () {
+    window.location = "https://www.facebook.com/Siam-Orchid-180288843674/?ref=page_internal"
+    })
+
+
+
 
 // let submitButton = document.querySelector('#submitButton')
 // let reviewList = document.querySelector('.reviewList')
