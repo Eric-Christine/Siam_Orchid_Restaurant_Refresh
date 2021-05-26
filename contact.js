@@ -8,6 +8,10 @@ let userNumberRating = 5
 let overallNumberRating = 0
 let hoverStarRating = 0
 
+//Yelp Review resizing 
+let yelpReview = document.querySelector(".yelp-review")
+yelpReview.style.height="500px"
+
 // user star rating event listenr
 
 star1 = document.getElementById('star1')
