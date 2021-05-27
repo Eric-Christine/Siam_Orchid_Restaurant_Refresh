@@ -218,3 +218,8 @@ h2{
 button{
     width: 50%;
 }
+
+
+main ul{
+    max-width: 80%;
+}
