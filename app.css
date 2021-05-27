@@ -45,7 +45,7 @@ a{
 
 
 .navbar{
-    height: 16vh;
+    height: auto;
     display: flex;
     background: purple;
     color: #fff;
@@ -94,8 +94,8 @@ a{
 }
 
 #showcase {
-    background: url(/IMG/sample.jpg) no-repeat center center/cover;
-    height: 600px;
+    background: url(/IMG/siam\ orchid\ cover\ photo.jpg) no-repeat center center/cover;
+    height: auto;
 }
 
 #showcase .showcase-content{
@@ -103,7 +103,7 @@ a{
     text-align: center;
     padding-top: 170px;
     height: 600px;
-    background-color: rgba(75, 75, 85, 0.349);
+    background-color: rgba(75, 75, 85, 0.199);
     /* animation */
     animation: moveInLeft 1.2s ease-in-out;
  
@@ -322,5 +322,7 @@ a .btn{
 .center {
     text-align: center;
 }
+
+
 
 

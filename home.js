@@ -15,6 +15,10 @@ console.log(logo)
 
 logo.addEventListener('click', function (e) {
     // e.preventDefault()
-    console.log(e)
+    window.location=""
 })
 
+
+// yelpButton.addEventListener('click', function () {
+//     window.location = "https://www.yelp.com/biz/siam-orchid-thai-restaurant-bellevue"
+//     })

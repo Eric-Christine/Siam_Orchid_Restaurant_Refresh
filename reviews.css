@@ -13,9 +13,12 @@ html, body{
     text-align: center;
 }
 
+
 main{
     margin: 20px;
 }
+
+
 
 h4 {
     text-align: center;
@@ -277,4 +280,7 @@ iframe:hover{
     padding-top: 10px;
     align-items: center;}
 
-
+    .title{
+        color: white;
+        background: black;
+        }

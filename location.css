@@ -7,6 +7,10 @@ h1, h2, h3, h4{
     padding-top: 10px;
 }
 
+.title{
+    color: white;
+    background: black;
+}
 
 
 #location-content{
