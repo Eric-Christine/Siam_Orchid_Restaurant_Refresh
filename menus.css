@@ -62,6 +62,8 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
     /* background: rgb(0, 255, 115); */
 }
 .chef-specialties{
