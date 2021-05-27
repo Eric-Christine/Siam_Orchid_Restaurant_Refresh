@@ -9,32 +9,43 @@
 main{
     background: white;
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 
 main ul {
-    /* text-align: left; */
-    /* background: yellow;
-    display: flex;
-    flex-flow: column wrap; */
     margin: 1rem 10rem;
     justify-content: center;
     list-style: none;
     width: 800px;
-    background: chocolate;
+    /* background: chocolate; */
     text-align: left;    
 }
 
 li {
-    
     margin: 1rem;
-    
 }
 
 .appetizers{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: blue;
-   
+    /* background: blue; */
+}
+.soups-and-salads{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(0, 255, 115); */
+}
+.entrees{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(0, 255, 115); */
 }
