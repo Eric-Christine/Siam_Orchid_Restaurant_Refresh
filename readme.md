@@ -5,3 +5,5 @@ Updated photographs
 Added SEO content in header
 
 Embeded reviews from Yelp and FB
+
+Added Google Analytics
