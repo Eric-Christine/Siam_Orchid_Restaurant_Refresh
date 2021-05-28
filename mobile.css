@@ -105,6 +105,7 @@ h2{
 }
 
 
+
 .navbar ul a {
     display: flex;
     flex-flow: column wrap;
@@ -112,6 +113,9 @@ h2{
     float: none;
     
 
+}
+.navbar ul{ 
+    justify-content: flex-start;
 }
 
 .navbar ul li  {
@@ -232,4 +236,18 @@ main ul{
 
 #home-menu-btn{
     display: none;
+}
+
+.logo{
+    width: auto;
+}
+
+main ul{
+    margin: auto;
+    list-style: none;
+    /* background: blue; */
+}
+
+main li{
+    text-align: left;
 }

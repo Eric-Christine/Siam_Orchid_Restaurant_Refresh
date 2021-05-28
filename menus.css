@@ -5,6 +5,7 @@
 }
 
 
+
 .title{
     color: white;
     background: black;
@@ -26,6 +27,8 @@ main ul {
     /* background: chocolate; */
     text-align: left;    
 }
+
+
 
 li {
     margin: 1rem;
