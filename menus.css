@@ -115,7 +115,7 @@ hr {
 .navbar{
     height: 16vh;
     display: flex;
-    background: black;
+    background: purple;
     color: #fff;
     overflow: auto;
 
