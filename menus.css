@@ -9,6 +9,8 @@
 .title{
     color: white;
     background: black;
+    animation: fade-in-right .8s ease-in-out;
+
 }
 
 main{

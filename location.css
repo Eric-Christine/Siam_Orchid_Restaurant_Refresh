@@ -10,6 +10,8 @@ h1, h2, h3, h4{
 .title{
     color: white;
     background: black;
+    animation: fade-in-right .8s ease-in-out;
+
 }
 
 
@@ -38,4 +40,5 @@ h1, h2, h3, h4{
     padding: 20px;
     text-align: center;
 }
+
 
