@@ -4,7 +4,19 @@
     box-sizing: border-box;
 }
 
+/* start animation on scroll */
 
+.start {
+    animation: fade-in-right .8s;
+}
+
+/* hr{
+    animation: fade-in-right .8s;
+} */
+
+.fade-in-element {
+    animation: fade-in 1.8s;
+  }
 
 .title{
     color: white;
