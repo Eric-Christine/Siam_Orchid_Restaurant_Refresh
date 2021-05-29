@@ -7,7 +7,10 @@
 /* start animation on scroll */
 
 .start {
-    animation: fade-in-right .8s;
+    animation: fade-in-right 1.2s ease-out;
+}
+.float-up {
+    animation: float-up .6s ease-out;
 }
 
 /* hr{
