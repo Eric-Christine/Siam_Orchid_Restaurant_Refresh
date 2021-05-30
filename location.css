@@ -32,8 +32,11 @@ h1, h2, h3, h4{
     
     
 }
-.contact ul{
+main ul{
+    margin-top: 4vh;
     list-style: none;
+    max-width: 768px;
+    text-align: left;
 }
 
 .map{
@@ -42,3 +45,8 @@ h1, h2, h3, h4{
 }
 
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
