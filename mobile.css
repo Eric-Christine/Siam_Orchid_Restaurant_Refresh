@@ -231,6 +231,10 @@ main ul{
     max-width: 80%;
 }
 
+.mobile-only{
+    display: block;
+}
+
 /* New edits  */
 
 /* #broken{

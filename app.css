@@ -43,6 +43,10 @@ a{
     justify-content: center;
 }
 
+.mobile-only{
+    display: none;
+}
+
 
 .navbar{
     height: auto;
