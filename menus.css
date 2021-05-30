@@ -7,7 +7,7 @@
 /* start animation on scroll */
 
 .start {
-    animation: fade-in-right 1.2s ease-out;
+    animation: fade-in 1s ease-out;
 }
 .float-up {
     animation: float-up .6s ease-out;
@@ -115,12 +115,32 @@ li {
     flex-wrap: wrap;
     /* background: rgb(0, 255, 115); */
 }
+.no-alc-beverages{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
+
+.alc-beverages{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
 
 hr {
-
     border-left: 80px solid rgb(0, 0, 0);
     margin-bottom: 10px;
   }
+
+
+
+
 
   
 
