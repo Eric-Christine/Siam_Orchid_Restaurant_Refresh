@@ -223,6 +223,9 @@ button{
     width: 50%;
 }
 
+main i{
+    max-width: 90%;
+}
 
 main ul{
     max-width: 80%;
