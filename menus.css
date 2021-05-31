@@ -29,9 +29,10 @@
 }
 
 main{
-    background: white;
+    background: white ;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+
     /* background-image: linear-gradient(rgba(245, 240, 167, 0.513), rgb(248, 230, 169) ) */
     
     
@@ -71,6 +72,14 @@ li {
     /* background: rgb(0, 255, 115); */
 }
 .entrees{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(0, 255, 115); */
+}
+.rice-and-noodles{
     padding: 2rem 0;
     display: flex;
     flex-direction: column;

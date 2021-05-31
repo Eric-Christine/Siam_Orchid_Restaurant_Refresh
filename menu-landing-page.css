@@ -1,3 +1,19 @@
+button {
+    cursor: pointer;
+    background-color: rgb(122, 22, 236);
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
 
 /* Coloring */
 .text-primary{
@@ -19,27 +35,11 @@ main{
 }
 
 
-
 h4 {
     text-align: center;
 }
 
-button {
-    cursor: pointer;
-    background-color: rgb(122, 22, 236);
-    border: none;
-    border-radius: 4px;
-    color: #ffffff;
-    margin: 10px;
-    padding: 20px;
-    width: 20%;
-    font-size: 20px;
-}
-
-button:hover{
-    background-color: blueviolet;
-}
-/* nav */
+nav */
 
 .logo img{
     height: 16vh;
