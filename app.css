@@ -17,11 +17,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
 
-html, body{
+main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-    background: black;
-
+    /* background: black; */
 }
 
 a{
@@ -58,7 +57,7 @@ a{
 }
 .navbar a {
     color: white;
-    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Architects Daughter', cursive;
 
 }
 
@@ -222,7 +221,7 @@ a .btn{
 
 
 #main-footer{
-    height: 15vh;
+    height: 18vh;
     flex-flow: column;
     text-align: center;
     color: white;
@@ -233,7 +232,11 @@ a .btn{
 #main-footer p{
 
     padding-top: 20px;
-   
+    padding-bottom: 20px;
+}
+
+html{
+    background:black;
 }
 
 #main-footer li{
