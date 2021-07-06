@@ -11,6 +11,6 @@ lunchMenu.addEventListener('click', function () {
     })
 
 dinnerMenu.addEventListener('click', function () {
-    window.location = "menus.html"
+    window.location = "dinner-menu.html"
     })
 
