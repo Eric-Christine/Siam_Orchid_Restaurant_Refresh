@@ -28,6 +28,15 @@
 
 }
 
+.banner{
+    color: white;
+    background: goldenrod;
+}
+.openBanner{
+    color: white;
+    background: rgb(190, 29, 187);
+}
+
 main{
     background: white ;
     text-align: center;
