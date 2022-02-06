@@ -50,3 +50,11 @@ main ul{
     flex-direction: row;
     justify-content: center;
 }
+.banner{
+    color: white;
+    background: goldenrod;
+}
+.openBanner{
+    color: white;
+    background: goldenrod;
+}

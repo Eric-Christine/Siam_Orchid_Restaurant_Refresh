@@ -5,9 +5,8 @@ day = x.getDay()
 // Function creates a node and appends to the page
 function isClosed(){
     let node = document.createElement("H3");
-    node.setAttribute('id', 'closed-banner')
     node.setAttribute('class', 'openBanner center')
-    let textnode = document.createTextNode("Sorry, we are closed on Sundays. Please come back Monday-Saturday 🌸");
+    let textnode = document.createTextNode("🌸 Sorry, we are closed on Sundays. Please come back Monday-Saturday 🌸");
     node.appendChild(textnode);
     document.getElementById("append").appendChild(node);
 }
